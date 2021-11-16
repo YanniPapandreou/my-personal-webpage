@@ -22,28 +22,31 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: AI Research Intern
+    company: Arabesque AI
+    company_url: 'https://www.arabesque.com/ai/'
+    location: London
+    date_start: '2021-08-23'
     date_end: ''
     description: |2-
-        Responsibilities include:
+        Research internship focussing on Market Regime Detection:
+        * Investigated approaches using Change-point Detection (CPD) algorithms
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Mathematics Tutor
+    company: Keystone Tutors
+    company_url: 'https://www.keystonetutors.com/'
+    location: London
+    date_start: '2019-12-01'
+    date_end: ''
+    description: Mathematics tutor for GCSEs, A levels, STEP, Oxbridge admissions, and undergraduate levels
+
+  - title: Graduate Teaching Assistant (GTA)
+    company: Imperial College London
+    company_url: 'https://www.imperial.ac.uk/'
+    location: London
+    date_start: '2019-10-01'
+    date_end: ''
+    description:
 
 design:
   columns: '2'
