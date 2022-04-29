@@ -8,6 +8,15 @@ baseurl: 'https://YanniPapandreou.github.io/' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
 ############################
+## Security
+############################
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
+
+############################
 ## LANGUAGE
 ############################
 
